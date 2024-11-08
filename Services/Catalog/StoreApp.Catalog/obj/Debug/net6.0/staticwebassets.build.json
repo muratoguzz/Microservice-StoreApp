@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mEplKEoy1SSBf0xRIVP4rPRp2EsaIuCCPf4rZi6V3ro=",
+  "Source": "StoreApp.Catalog",
+  "BasePath": "_content/StoreApp.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
