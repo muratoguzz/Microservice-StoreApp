@@ -38,3 +38,4 @@ C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Cata
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\StoreApp.Catalog.pdb
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\StoreApp.Catalog.genruntimeconfig.cache
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\ref\StoreApp.Catalog.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\StoreApp.Catalog.sourcelink.json

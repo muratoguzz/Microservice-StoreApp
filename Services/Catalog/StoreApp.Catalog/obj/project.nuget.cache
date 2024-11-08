@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4r6WbvnEIx+FLtSF8wh+Btohx4gx8Xi1CWys5xPe7OlYa2ssalt2zIk+YiZR/7otQrHc+7N/OyIRFCaDsHtFAw==",
+  "dgSpecHash": "/6QW93GoTDkp/VgwjUhp6tfKQchc0cJJSxmvYUwxX/MhFcPicrQKz6eybSvB2h3HsLLUuYR6gzn+qfnYfsm0EA==",
   "success": true,
   "projectFilePath": "C:\\Users\\murat\\source\\repos\\Microservice-StoreApp\\Services\\Catalog\\StoreApp.Catalog\\StoreApp.Catalog.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\murat\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
