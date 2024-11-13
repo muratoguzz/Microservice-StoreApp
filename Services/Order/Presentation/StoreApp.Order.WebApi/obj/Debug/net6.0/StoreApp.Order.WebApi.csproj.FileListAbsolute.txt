@@ -72,3 +72,7 @@ C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\St
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\obj\Debug\net6.0\StoreApp.Order.WebApi.pdb
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\obj\Debug\net6.0\StoreApp.Order.WebApi.genruntimeconfig.cache
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\obj\Debug\net6.0\ref\StoreApp.Order.WebApi.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\MediatR.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

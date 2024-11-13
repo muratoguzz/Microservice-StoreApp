@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "/IEWghox4y5eWbWNaTiHjLv2Aa+s2pmxgP1HYSMtGvfsUVt4x4yJ8zfHTXrI6xZ96nuQL5cTuOUzjJdmoqnFtA==",
+  "dgSpecHash": "652MvJfOQobkPISs6KE4OYipb27Cy/qNAGfjZBMQ+uiVHO9DgK6RKOa+YS9eZTWzwR4GSbKAKRlkUYEPTBcrvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\murat\\source\\repos\\Microservice-StoreApp\\Services\\Order\\Core\\StoreApp.Order.Application\\StoreApp.Order.Application.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\murat\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.4.1 was resolved.",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
