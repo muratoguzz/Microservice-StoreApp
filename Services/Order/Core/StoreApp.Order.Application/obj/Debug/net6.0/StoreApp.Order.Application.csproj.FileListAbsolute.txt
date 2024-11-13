@@ -1,0 +1,16 @@
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\bin\Debug\net6.0\StoreApp.Order.Application.deps.json
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\bin\Debug\net6.0\StoreApp.Order.Application.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\bin\Debug\net6.0\StoreApp.Order.Application.pdb
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\bin\Debug\net6.0\StoreApp.Order.Domain.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\bin\Debug\net6.0\StoreApp.Order.Domain.pdb
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.csproj.AssemblyReference.cache
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.AssemblyInfoInputs.cache
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.AssemblyInfo.cs
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.csproj.CoreCompileInputs.cache
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.sourcelink.json
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.C9BD07A6.Up2Date
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\refint\StoreApp.Order.Application.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\StoreApp.Order.Application.pdb
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Application\obj\Debug\net6.0\ref\StoreApp.Order.Application.dll

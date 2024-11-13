@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StoreApp.Order.Application/1.0.0": {
+        "dependencies": {
+          "StoreApp.Order.Domain": "1.0.0"
+        },
+        "runtime": {
+          "StoreApp.Order.Application.dll": {}
+        }
+      },
+      "StoreApp.Order.Domain/1.0.0": {
+        "runtime": {
+          "StoreApp.Order.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StoreApp.Order.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StoreApp.Order.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

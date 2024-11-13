@@ -1,0 +1,12 @@
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\bin\Debug\net6.0\StoreApp.Order.Domain.deps.json
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\bin\Debug\net6.0\StoreApp.Order.Domain.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\bin\Debug\net6.0\StoreApp.Order.Domain.pdb
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.AssemblyInfoInputs.cache
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.AssemblyInfo.cs
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.csproj.CoreCompileInputs.cache
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.sourcelink.json
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\refint\StoreApp.Order.Domain.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\StoreApp.Order.Domain.pdb
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Core\StoreApp.Order.Domain\obj\Debug\net6.0\ref\StoreApp.Order.Domain.dll
