@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using StoreApp.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using StoreApp.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
+using StoreApp.Order.Application.Features.Mediator.Handlers;
 using StoreApp.Order.Application.Interfaces;
 using StoreApp.Order.Persistence.Context;
 using StoreApp.Order.Persistence.Repositories;
@@ -17,6 +18,7 @@ builder.Services.AddDbContext<OrderContext>(options =>
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped(typeof(IOrderRepository), typeof(OrderingRepository));
 builder.Services.AddApplicationService(builder.Configuration);
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -26,7 +26,7 @@ namespace StoreApp.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
                 ProductAmount = values.ProductAmount,
                 ProductId = values.ProductId,
                 ProductName = values.ProductName,
-                OrderingId = values.OrderId,
+                OrderingId = values.OrderingId,
                 ProductPrice = values.ProductPrice,
                 ProductTotalPrice = values.ProductTotalPrice
             };

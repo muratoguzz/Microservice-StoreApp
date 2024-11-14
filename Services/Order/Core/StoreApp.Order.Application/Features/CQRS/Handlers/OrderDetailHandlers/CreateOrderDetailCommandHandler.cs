@@ -22,7 +22,7 @@ namespace StoreApp.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
             await _repository.CreateAsync(new OrderDetail
             {
                 ProductAmount = command.ProductAmount,
-                OrderId = command.OrderingId,
+                OrderingId = command.OrderingId,
                 ProductId = command.ProductId,
                 ProductName = command.ProductName,
                 ProductPrice = command.ProductPrice,

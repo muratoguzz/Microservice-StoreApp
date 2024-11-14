@@ -1,5 +1,6 @@
 ﻿using StoreApp.Order.Application.Features.CQRS.Handlers.AddressHandlers;
 using StoreApp.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers;
+using StoreApp.Order.Application.Features.Mediator.Handlers;
 
 namespace StoreApp.Order.WebApi.Extensions
 {
@@ -7,7 +8,6 @@ namespace StoreApp.Order.WebApi.Extensions
     {
         public static void AddApplicationService(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ServiceRegistiration).Assembly));
             
             //region Address Handlers
             services.AddScoped<GetAddressQueryHandler>();
@@ -24,6 +24,8 @@ namespace StoreApp.Order.WebApi.Extensions
             services.AddScoped<UpdateOrderDetailCommandHandler>();
             services.AddScoped<RemoveOrderDetailCommandHandler>();
             //endregion
+            //services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(ServiceRegistiration).Assembly));
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<CreateOrderingCommandHandler>());
         }
     }
 }

@@ -19,7 +19,7 @@ namespace StoreApp.Order.Application.Features.CQRS.Handlers.OrderDetailHandlers
         public async Task Handle(UpdateOrderDetailCommand command)
         {
             var values = await _repository.GetByIdAsync(command.OrderDetailId);
-            values.OrderId = command.OrderingId;
+            values.OrderingId = command.OrderingId;
             values.ProductId = command.ProductId;
             values.ProductPrice = command.ProductPrice;
             values.ProductName = command.ProductName;
