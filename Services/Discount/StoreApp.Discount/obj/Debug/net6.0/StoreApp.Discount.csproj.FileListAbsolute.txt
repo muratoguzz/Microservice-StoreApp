@@ -69,3 +69,5 @@ C:\Users\murat\source\repos\Microservice-StoreApp\Services\Discount\StoreApp.Dis
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Discount\StoreApp.Discount\obj\Debug\net6.0\StoreApp.Discount.pdb
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Discount\StoreApp.Discount\obj\Debug\net6.0\StoreApp.Discount.genruntimeconfig.cache
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Discount\StoreApp.Discount\obj\Debug\net6.0\ref\StoreApp.Discount.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Discount\StoreApp.Discount\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Discount\StoreApp.Discount\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

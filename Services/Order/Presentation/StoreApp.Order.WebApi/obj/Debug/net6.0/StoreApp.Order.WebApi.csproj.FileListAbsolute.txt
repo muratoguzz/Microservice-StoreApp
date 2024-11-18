@@ -84,3 +84,5 @@ C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\St
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Order\Presentation\StoreApp.Order.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

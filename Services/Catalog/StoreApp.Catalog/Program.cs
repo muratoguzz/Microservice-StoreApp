@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using StoreApp.Catalog.Services.CategoryServices;
 using StoreApp.Catalog.Services.ProductDetailServices;
@@ -7,6 +8,13 @@ using StoreApp.Catalog.Settings;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+{
+    opt.Authority = builder.Configuration["IdentityServerUrl"]; //port bilgisi appsettingste
+    opt.Audience = "ResourceCatalog"; //Kullanýcý ResourceCatalog karþýlýðýndaki iþlemleri yapabilir
+    opt.RequireHttpsMetadata = false;
+});
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
@@ -37,6 +45,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

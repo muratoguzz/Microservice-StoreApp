@@ -39,3 +39,11 @@ C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Cata
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\StoreApp.Catalog.pdb
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\StoreApp.Catalog.genruntimeconfig.cache
 C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\obj\Debug\net6.0\ref\StoreApp.Catalog.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\murat\source\repos\Microservice-StoreApp\Services\Catalog\StoreApp.Catalog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
