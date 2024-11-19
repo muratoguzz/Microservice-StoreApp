@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreApp.Order.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67f58169b14778c726832b477689a7681cc6b128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4790948295dc759c9e8c2eaaf033aa6f64766f50")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreApp.Order.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreApp.Order.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
