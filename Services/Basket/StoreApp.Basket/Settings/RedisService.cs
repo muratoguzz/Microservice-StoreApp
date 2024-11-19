@@ -7,7 +7,7 @@ namespace StoreApp.Basket.Settings
         public string _host { get; set; }
         public int _port { get; set; }
 
-        private ConnectionMultiplexer _connectionMultiplexer;
+        private ConnectionMultiplexer _connectionMultiplexer; //redis ile bağlantı kurmak için kullanılan nesne
         public RedisService(string host, int port)
         {
             _host = host;
@@ -15,6 +15,6 @@ namespace StoreApp.Basket.Settings
         }
 
         public void Connect() => _connectionMultiplexer = ConnectionMultiplexer.Connect($"{_host}:{_port}");
-        public IDatabase GetDb(int db = 1) => _connectionMultiplexer.GetDatabase(0);
+        public IDatabase GetDb(int db = 0) => _connectionMultiplexer.GetDatabase(db); //0 nolu db yi getir
     }
 }
