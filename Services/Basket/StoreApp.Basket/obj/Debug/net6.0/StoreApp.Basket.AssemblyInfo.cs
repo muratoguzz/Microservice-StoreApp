@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreApp.Basket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c659f48365d32706a56d4c7c86cc3c98d846c13c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eecd0f98d487577c6e54a7ef9838b028f7508668")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreApp.Basket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreApp.Basket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
