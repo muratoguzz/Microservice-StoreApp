@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreApp.IdentityServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f69c73951dde1a1c6ebb8ca45abc6cdf053565a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9388035ff9efb751f296b72dd90328dad6ba5ed5")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreApp.IdentityServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreApp.IdentityServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
