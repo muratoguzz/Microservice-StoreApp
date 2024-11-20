@@ -62,13 +62,18 @@ namespace StoreApp.IdentityServer
             {
                 ClientId="StoreAppManagerId",
                 ClientName="StoreApp Manager User",
-                AllowedGrantTypes=GrantTypes.ClientCredentials,
+                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                 ClientSecrets={new Secret("storeappsecret".Sha256()) },
                 AllowedScopes={ "CatalogReadPermission", "CatalogFullPermission", "BasketFullPermission", "OcelotFullPermission", "CommentFullPermission", "PaymentFullPermission", "ImageFullPermission","DiscountFullPermission","OrderFullPermisson","MessageFullPermission","CargoFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
                 IdentityServerConstants.StandardScopes.Email,
                 IdentityServerConstants.StandardScopes.OpenId,
-                IdentityServerConstants.StandardScopes.Profile }
+                IdentityServerConstants.StandardScopes.Profile 
+                },
+                AccessTokenLifetime=600,
+                AllowOfflineAccess = true, // Refresh token kullanımı için gerekli
+                RefreshTokenExpiration = TokenExpiration.Sliding, // Kayma yenileme politikası
+                RefreshTokenUsage = TokenUsage.ReUse // Aynı refresh token yeniden kullanılabilir
             },
 
             //Admin
@@ -76,7 +81,7 @@ namespace StoreApp.IdentityServer
             {
                 ClientId="StoreAppAdminId",
                 ClientName="StoreApp Admin User",
-                AllowedGrantTypes=GrantTypes.ClientCredentials,
+                AllowedGrantTypes=GrantTypes.ResourceOwnerPassword,
                 ClientSecrets={new Secret("storeappsecret".Sha256()) },
                 AllowedScopes={ "CatalogFullPermission", "CatalogReadPermission", "DiscountFullPermission", "OrderFullPermisson","CargoFullPermission","BasketFullPermission","OcelotFullPermission","CommentFullPermission","PaymentFullPermission","ImageFullPermission","CargoFullPermission",
                 IdentityServerConstants.LocalApi.ScopeName,
@@ -84,7 +89,10 @@ namespace StoreApp.IdentityServer
                 IdentityServerConstants.StandardScopes.OpenId,
                 IdentityServerConstants.StandardScopes.Profile
                 },
-                AccessTokenLifetime=600
+                AccessTokenLifetime=600,
+                AllowOfflineAccess = true, // Refresh token kullanımı için gerekli
+                RefreshTokenExpiration = TokenExpiration.Sliding, // Kayma yenileme politikası
+                RefreshTokenUsage = TokenUsage.ReUse // Aynı refresh token yeniden kullanılabilir
             }
         };
     }

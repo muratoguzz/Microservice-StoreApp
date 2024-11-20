@@ -8,6 +8,6 @@
             _httpContextAccessor = contextAccessor;
         }
 
-        public string GetUserId => _httpContextAccessor.HttpContext.User.FindFirst("sub").Value; //sub tokenden gelicek içinde id var
+        public string GetUserId => _httpContextAccessor.HttpContext.User.FindFirst("sub").Value; //sub tokenden gelicek içinde id var, Program.cs builder.Services.AddHttpContextAccessor();
     }
 }

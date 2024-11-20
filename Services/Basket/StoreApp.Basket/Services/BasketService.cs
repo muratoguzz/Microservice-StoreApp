@@ -4,7 +4,7 @@ using System.Text.Json;
 
 namespace StoreApp.Basket.Services
 {
-    public class BasketService
+    public class BasketService : IBasketService
     {
         private readonly RedisService _redisService;
         public BasketService(RedisService redisService)
