@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreApp.Discount")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9388035ff9efb751f296b72dd90328dad6ba5ed5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76433b0d197bd6d3cc6501b306003302b51738a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreApp.Discount")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreApp.Discount")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

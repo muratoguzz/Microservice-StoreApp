@@ -32,7 +32,7 @@ namespace StoreApp.Catalog.Mapping
             CreateMap<ProductImage, UpdateProductImageDto>().ReverseMap();
             CreateMap<ProductImage, GetByIdProductImageDto>().ReverseMap();
 
-            //CreateMap<Product, ResultProductsWithCategoryDto>().ReverseMap();
+            CreateMap<Product, ResultProductsWithCategoryDto>().ReverseMap();
 
             //CreateMap<FeatureSlider, ResultFeatureSliderDto>().ReverseMap();
             //CreateMap<FeatureSlider, CreateFeatureSliderDto>().ReverseMap();
