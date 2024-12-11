@@ -9,5 +9,6 @@ namespace StoreApp.Catalog.Entities
         [BsonRepresentation(BsonType.ObjectId)] //Benzersiz olduğunu bildiriyoruz
         public string CategoryId { get; set; } //Guid
         public string CategoryName { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

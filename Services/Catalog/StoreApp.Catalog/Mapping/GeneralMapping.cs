@@ -1,9 +1,14 @@
 ﻿using AutoMapper;
 using MongoDB.Driver.Core.Misc;
+using StoreApp.Catalog.Dtos.BrandDtos;
 using StoreApp.Catalog.Dtos.CategoryDtos;
+using StoreApp.Catalog.Dtos.FeatureDtos;
+using StoreApp.Catalog.Dtos.FeatureSliderDtos;
+using StoreApp.Catalog.Dtos.OfferDiscountDtos;
 using StoreApp.Catalog.Dtos.ProductDetailDtos;
 using StoreApp.Catalog.Dtos.ProductDtos;
 using StoreApp.Catalog.Dtos.ProductImageDtos;
+using StoreApp.Catalog.Dtos.SpecialOfferDtos;
 using StoreApp.Catalog.Entities;
 
 namespace StoreApp.Catalog.Mapping
@@ -34,30 +39,30 @@ namespace StoreApp.Catalog.Mapping
 
             CreateMap<Product, ResultProductsWithCategoryDto>().ReverseMap();
 
-            //CreateMap<FeatureSlider, ResultFeatureSliderDto>().ReverseMap();
-            //CreateMap<FeatureSlider, CreateFeatureSliderDto>().ReverseMap();
-            //CreateMap<FeatureSlider, UpdateFeatureSliderDto>().ReverseMap();
-            //CreateMap<FeatureSlider, GetByIdFeatureSliderDto>().ReverseMap();
+            CreateMap<FeatureSlider, ResultFeatureSliderDto>().ReverseMap();
+            CreateMap<FeatureSlider, CreateFeatureSliderDto>().ReverseMap();
+            CreateMap<FeatureSlider, UpdateFeatureSliderDto>().ReverseMap();
+            CreateMap<FeatureSlider, GetByIdFeatureSliderDto>().ReverseMap();
 
-            //CreateMap<SpecialOffer, ResultSpecialOfferDto>().ReverseMap();
-            //CreateMap<SpecialOffer, CreateSpecialOfferDto>().ReverseMap();
-            //CreateMap<SpecialOffer, UpdateSpecialOfferDto>().ReverseMap();
-            //CreateMap<SpecialOffer, GetByIdSpecialOfferDto>().ReverseMap();
+            CreateMap<SpecialOffer, ResultSpecialOfferDto>().ReverseMap();
+            CreateMap<SpecialOffer, CreateSpecialOfferDto>().ReverseMap();
+            CreateMap<SpecialOffer, UpdateSpecialOfferDto>().ReverseMap();
+            CreateMap<SpecialOffer, GetByIdSpecialOfferDto>().ReverseMap();
 
-            //CreateMap<Feature, ResultFeatureDto>().ReverseMap();
-            //CreateMap<Feature, CreateFeatureDto>().ReverseMap();
-            //CreateMap<Feature, UpdateFeatureDto>().ReverseMap();
-            //CreateMap<Feature, GetByIdFeatureDto>().ReverseMap();
+            CreateMap<Entities.Feature, ResultFeatureDto>().ReverseMap();
+            CreateMap<Entities.Feature, CreateFeatureDto>().ReverseMap();
+            CreateMap<Entities.Feature, UpdateFeatureDto>().ReverseMap();
+            CreateMap<Entities.Feature, GetByIdFeatureDto>().ReverseMap();
 
-            //CreateMap<OfferDiscount, ResultOfferDiscountDto>().ReverseMap();
-            //CreateMap<OfferDiscount, CreateOfferDiscountDto>().ReverseMap();
-            //CreateMap<OfferDiscount, UpdateOfferDiscountDto>().ReverseMap();
-            //CreateMap<OfferDiscount, GetByIdOfferDiscountDto>().ReverseMap();
+            CreateMap<OfferDiscount, ResultOfferDiscountDto>().ReverseMap();
+            CreateMap<OfferDiscount, CreateOfferDiscountDto>().ReverseMap();
+            CreateMap<OfferDiscount, UpdateOfferDiscountDto>().ReverseMap();
+            CreateMap<OfferDiscount, GetByIdOfferDiscountDto>().ReverseMap();
 
-            //CreateMap<Brand, ResultBrandDto>().ReverseMap();
-            //CreateMap<Brand, CreateBrandDto>().ReverseMap();
-            //CreateMap<Brand, UpdateBrandDto>().ReverseMap();
-            //CreateMap<Brand, GetByIdBrandDto>().ReverseMap();
+            CreateMap<Brand, ResultBrandDto>().ReverseMap();
+            CreateMap<Brand, CreateBrandDto>().ReverseMap();
+            CreateMap<Brand, UpdateBrandDto>().ReverseMap();
+            CreateMap<Brand, GetByIdBrandDto>().ReverseMap();
 
             //CreateMap<About, ResultAboutDto>().ReverseMap();
             //CreateMap<About, CreateAboutDto>().ReverseMap();
