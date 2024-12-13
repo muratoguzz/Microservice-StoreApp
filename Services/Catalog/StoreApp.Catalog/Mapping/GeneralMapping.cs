@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using MongoDB.Driver.Core.Misc;
+using StoreApp.Catalog.Dtos.AboutDtos;
 using StoreApp.Catalog.Dtos.BrandDtos;
 using StoreApp.Catalog.Dtos.CategoryDtos;
 using StoreApp.Catalog.Dtos.FeatureDtos;
@@ -64,10 +65,10 @@ namespace StoreApp.Catalog.Mapping
             CreateMap<Brand, UpdateBrandDto>().ReverseMap();
             CreateMap<Brand, GetByIdBrandDto>().ReverseMap();
 
-            //CreateMap<About, ResultAboutDto>().ReverseMap();
-            //CreateMap<About, CreateAboutDto>().ReverseMap();
-            //CreateMap<About, UpdateAboutDto>().ReverseMap();
-            //CreateMap<About, GetByIdAboutDto>().ReverseMap();
+            CreateMap<About, ResultAboutDto>().ReverseMap();
+            CreateMap<About, CreateAboutDto>().ReverseMap();
+            CreateMap<About, UpdateAboutDto>().ReverseMap();
+            CreateMap<About, GetByIdAboutDto>().ReverseMap();
 
             //CreateMap<Contact, ResultContactDto>().ReverseMap();
             //CreateMap<Contact, CreateContactDto>().ReverseMap();
