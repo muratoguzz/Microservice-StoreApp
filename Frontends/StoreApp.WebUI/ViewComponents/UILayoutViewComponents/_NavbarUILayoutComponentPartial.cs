@@ -1,12 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StoreApp.WebUI.Services.CatalogServices.CategoryServices;
 
 namespace StoreApp.WebUI.ViewComponents.UILayoutViewComponents
 {
     public class _NavbarUILayoutComponentPartial : ViewComponent
     {
-        public IViewComponentResult Invoke()
+        private readonly ICategoryService _categoryService;
+        public _NavbarUILayoutComponentPartial(ICategoryService categoryService)
         {
-            return View();
+            _categoryService = categoryService;
+        }
+        public async Task<IViewComponentResult> InvokeAsync()
+        {
+            var values = await _categoryService.GetAllCategoryAsync();
+            return View(values);
         }
     }
 }

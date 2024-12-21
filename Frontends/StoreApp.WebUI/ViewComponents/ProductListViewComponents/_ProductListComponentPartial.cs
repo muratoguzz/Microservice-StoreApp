@@ -1,12 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StoreApp.WebUI.Services.CatalogServices.ProductServices;
 
 namespace StoreApp.WebUI.ViewComponents.ProductListViewComponents
 {
     public class _ProductListComponentPartial : ViewComponent
     {
-        public IViewComponentResult Invoke() 
+        private readonly IProductService _productService;
+        public _ProductListComponentPartial(IProductService productService)
         {
-            return View(); 
+            _productService = productService;
+        }
+        public async Task<IViewComponentResult> InvokeAsync(string id)
+        {
+            var values = await _productService.GetProductsWithCategoryByCatetegoryIdAsync(id);
+            return View(values);
         }
     }
 }
