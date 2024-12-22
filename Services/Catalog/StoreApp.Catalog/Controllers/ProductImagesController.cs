@@ -6,7 +6,8 @@ using StoreApp.Catalog.Services.ProductImageServices;
 
 namespace StoreApp.Catalog.Controllers
 {
-    [Authorize]
+    //[Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductImagesController : ControllerBase

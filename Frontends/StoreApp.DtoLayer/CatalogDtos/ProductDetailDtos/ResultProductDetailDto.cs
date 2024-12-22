@@ -1,6 +1,6 @@
-﻿namespace StoreApp.Catalog.Dtos.ProductDetailDtos
+﻿namespace StoreApp.DtoLayer.CatalogDtos.ProductDetailDtos
 {
-    public class UpdateProductDetailDto
+    public class ResultProductDetailDto
     {
         public string ProductDetailId { get; set; }
         public string ProductDescription { get; set; }

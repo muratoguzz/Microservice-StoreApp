@@ -1,12 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StoreApp.WebUI.Services.CatalogServices.ProductImageServices;
 
 namespace StoreApp.WebUI.ViewComponents.ProductDetailViewComponents
 {
     public class _ProductDetailImageSliderComponentPartial : ViewComponent
     {
-        public IViewComponentResult Invoke()
+        private readonly IProductImageService _productImageService;
+        public _ProductDetailImageSliderComponentPartial(IProductImageService productImageService)
         {
-            return View();
+            _productImageService = productImageService;
+        }
+        public async Task<IViewComponentResult> InvokeAsync(string id)
+        {
+            var values = await _productImageService.GetByProductIdProductImageAsync(id);
+            return View(values);
         }
     }
 }

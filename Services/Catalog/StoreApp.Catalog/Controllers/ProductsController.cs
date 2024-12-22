@@ -6,7 +6,8 @@ using StoreApp.Catalog.Services.ProductServices;
 
 namespace StoreApp.Catalog.Controllers
 {
-    [Authorize]
+    //[Authorize]
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
